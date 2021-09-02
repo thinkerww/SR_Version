@@ -8,30 +8,30 @@ usage: train_test.py [-h] [--batchSize BATCHSIZE] [--nEpochs NEPOCHS] [--lr LR]
                [--start-epoch START_EPOCH] [--threads THREADS]
                [--pretrained PRETRAINED]
 
-Pytorch SRDenseNet train
+Pytorch SR train
 
 optional arguments:
   -h, --help            show this help message and exit
-  --batchSize BATCHSIZE
-                        training batch size
+  --batchSize BATCHSIZE training batch size
+                        
   --nEpochs NEPOCHS     number of epochs to train for
   --lr LR               Learning Rate. Default=1e-4
   --step STEP           Sets the learning rate to the initial LR decayed by
                         10 every n epochs, Default: n=40
   --cuda                Use cuda?
   --resume RESUME       Path to checkpoint (default: none)
-  --start-epoch START_EPOCH
-                        Manual epoch number (useful on restarts)
+  --start-epoch START_EPOCH  Manual epoch number (useful on restarts)
+                        
   --threads THREADS     Number of threads for data loader to use, Default: 1
-  --pretrained PRETRAINED
-                        path to pretrained model (default: none)
+  --pretrained PRETRAINED  path to pretrained model (default: none)
+                        
 
 ```
 ### Test
 ```
 usage: test.py [-h] [--cuda] [--model MODEL] [--imageset IMAGESET] [--scale SCALE]
 
-Pytorch SRDenseNet Test
+Pytorch SR Test
 
 optional arguments:
   -h, --help     show this help message and exit
