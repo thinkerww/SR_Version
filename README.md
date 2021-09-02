@@ -1,7 +1,6 @@
 # cross-channel, cross-scale, and cross-stack network-pytorch
 
-
-
+![avatar](network.png)
 ## Usage
 ### Training
 ```
